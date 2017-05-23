@@ -1,0 +1,44 @@
+@charset "UTF-8";
+#header{
+	width:100%;
+
+}
+#header>.reg_div{
+	width:100%;
+	height: 32px;
+	background: #F6F6F6;
+
+}
+#header .reg{
+	
+	width:1200px;
+	margin-left:1260px; 
+
+}
+
+#header .header_cont{
+	width:1200px;
+	margin:0 auto; 
+	height: 100px;
+	
+}
+#header .header_cont>.logo{
+	width:100px;
+	height: 100px;
+	background:#F6F6F6 ;
+}
+#header .header_cont>.nav_phone{
+	width: 200px;
+	height:50px;
+	margin-top: 20px;
+}
+#header .header_cont>.nav_phone>div{
+	margin-left: 20px;
+	
+}
+
+#header .header_line{
+	width:100%;
+	height: 4px;
+	background: #008973;
+}

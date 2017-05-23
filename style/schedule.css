@@ -1,0 +1,265 @@
+@CHARSET "UTF-8";
+
+/*首页样式*/
+a,ul{
+	text-decoration:none;
+	list-style:none;
+	color:#05AFAF
+}
+
+.nav{
+	width:1200px;
+	height:12px;
+	margin:19px auto;
+}
+
+.cainter{
+	width:1200px;
+	
+	margin:0 auto;
+	border:solid 1px #ccc;
+}
+
+.title{
+	width:1156px;
+	height:72px;
+	margin:0 auto;
+	border-bottom:solid 1px #ccc;
+}
+
+.title h2{
+	display:block;
+	float:left;
+}
+
+.title span{
+	height:59px;
+	line-height:80px;
+	margin-left:10px;
+	display:block;
+	float:left;
+	font-size:14px;
+	color:#CCC;
+}
+
+.introduce{
+	width:1156px;
+}
+
+.introduce P{
+	font-size:14px;
+	line-height:30px;
+	text-indent: 2em;
+	width:1156px;
+	margin:10px 22px 10px 22px;
+}
+
+.introduce .content{
+	display:none;
+}
+.introduce .btm
+ {
+  text-align: right;
+  height: 30px;
+ }
+ .introduce .btn
+ {
+  width: 80px;
+  height: 20px;
+  font-size:14px;
+  padding: 5px 3px 5px 3px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #CCC;
+ }
+
+.doctor{
+	width:1200px;
+	height:630px;
+	border:solid 1px #ccc;
+	margin:18px auto;
+}
+.calendar-container{
+	width:579px;
+	height:100px;
+	float:right;
+	margin-right:-60px;
+	position:relative;
+
+}
+
+.dateDiv,.weekDiv{
+	font-fanily:'微软雅黑';
+	width:50px;
+	float:left;
+	display:inline-block;
+	margin:10px;
+	text-align:center;
+}
+.dateDiv{
+	color:#888;
+	font-size:12px;
+}
+.weekDiv{
+	font-weight:bold;
+}
+.lastImg{
+	width:26px;
+	height:26px;
+	background:url("../resource/images/last_s_h.png");
+	position:absolute;
+	left:-21px;
+	top:26px;
+}
+.lastImg:hover{
+	background:url("../resource/images/last_s_enable.png");
+}
+.lastDisable{
+	width:26px;
+	height:26px;
+	background:url("../resource/images/last_s_disable.png");
+	position:absolute;
+	left:-21px;
+	top:26px;
+}
+.nextImg{
+	width:26px;
+	height:26px;
+	background:url("../resource/images/next_s_h.png");
+	position:absolute;
+	left:490px;
+	top:26px;
+}
+.nextDisable{
+	width:26px;
+	height:26px;
+	background:url("../resource/images/next_s_disable.png");
+	position:absolute;
+	left:490px;
+	top:26px;
+}
+.nextImg:hover{
+	background:url("../resource/images/next_s_enable.png");
+}
+.clear{
+clear:both;
+}
+
+.doctor1,.doctor2,.doctor3{
+	width:400px;
+	height:170px;
+	
+	float:left;
+	margin:9px 0px 0px 22px;
+}
+
+.pic{
+	width:100px;
+	height:140px;
+	float:left;
+}
+.des{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-left:15px;
+	
+}
+.des span{
+	font-size:14px;
+	color:#ccc;
+}
+.des p{
+	width:370px;
+	font-size:12px;
+	font-weight:bolder;
+	word-wrap:break-word;
+	
+}
+.man{
+	width:100px;
+	height:140px;
+	background:url("../resource/images/default-man-doc.png")
+}
+.woman{
+	width:100px;
+	height:140px;
+	background:url("../resource/images/default-woman-doc.png")
+}
+
+.schedule1,.schedule2,.schedule3{
+	width:579px;
+	height:170px;
+	float:right;
+	margin-right:22px;
+}
+
+.schedule1 span,.schedule2 span,.schedule3 span{
+	height:92px;
+	float:left;
+	line-height:92px
+}
+.am,.pm{
+	height:60px;
+	line-height:60px;
+	width:500px;
+	float:left;	
+}
+.am{
+	border-bottom:solid 1px #ccc;
+}
+.schedule-disable{
+	width:50px;
+	height:53px;
+	line-height:55px;
+	text-align:center;
+	margin:0 9px 0 9px;
+	float:left;
+	background:url("../resource/images/disable_circle.png");
+	cursor:not-allowed;
+}
+.schedule-enable{
+	width:50px;
+	height:53px;
+	line-height:55px;
+	text-align:center;
+	margin-left:15px;
+	float:left;
+	background:url("../resource/images/enable_circle.png");
+	position:relative;
+	cursor:pointer;
+}
+.schedule-booked{
+	width:50px;
+	height:53px;
+	line-height:55px;
+	text-align:center;
+	margin-left:15px;
+	float:left;
+	background:url("../resource/images/appoint_booked.png");
+}
+
+.schedule-out-service{
+	width:50px;
+	height:53px;
+	line-height:55px;
+	text-align:center;
+	margin-left:15px;
+	float:left;
+	background:url("../resource/images/out_service.png");
+}
+.am li:hover,.pm li:hover{
+	background:url("../resource/images/enable_circle_hover.png");
+}
+
+.money{
+	width:166px;
+	height:64px;
+	position:absolute;
+	left:-58px;
+	top:46px;
+	background:url("../resource/images/tooltip_bg.png");
+	 z-index:111;
+}
+
+

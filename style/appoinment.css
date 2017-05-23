@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*预约页面样式*/
+
+.list-style{
+	list-style:none;
+}
+.dept-top{
+	width:1160px;
+	
+	border:solid 1px #ccc; 
+	margin:0 auto;
+}
+.dept-top>div:first-child{
+	width:340px;
+}
+.dept-top>div:nth-child(2){
+	width:780px;
+}
+.dept-top a{
+	text-decoration:none;
+	list-style:none;
+	color:#05AFAF;
+}
+
+
+/*tab标签页样式*/
+.tab{
+	position: relative;
+	list-style:none;
+	height:40px;
+	width: 1200px;
+	margin:40px auto;
+	border-bottom:solid 1px #ccc;
+}
+.item{
+	width:100px;
+	height:40px;
+}
+.active{
+	color: #05AFAF;
+	border-bottom:solid 2px #05AFAF;
+}
+.tag_line{
+
+	width:100px;
+	height:2px;
+	position: absolute;
+	background: red;
+	left:0px;
+	top:30px;
+}
+
+/*医院简介样式*/
+
+.desc{
+	width:1098px;
+	margin:0 auto;
+	border:solid 1px #ccc;
+}
+.desc>p{
+	line-height:30px;
+	text-indent: 2em;
+}
+
+.desc .title{
+	width:350px;
+	height:80px;
+	
+	margin:0 auto;
+}
+.desc .title div:nth-child(odd){
+	width:100px;
+	height:2px;
+	margin-top:20px;
+	background:#ccc;
+}
+.desc .title div:nth-child(2){
+	width:150px;
+	height:40px;
+	margin-top:5px;
+}
+
+
+/*科室列表样式*/
+.dept-list{
+	width:1198px;
+	margin:0 auto;
+	border:solid 1px #ccc;
+	
+}
+
+
+
+.name{
+	width:150px;
+	height:100px;
+	margin-top:20px;
+	margin-left:20px;
+	
+}
+.dept-list>ul{
+	
+	width:1140px;
+	height:100px;
+	margin-top:20px;
+	margin-left:30px;
+	border-bottom:solid 1px #ccc;
+} 
+.dept-list>ul>li{
+	width:130px;
+	height:30px;
+}
+
+
