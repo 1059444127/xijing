@@ -1,6 +1,6 @@
 
 requirejs.config({
-	baseUrl:'/',
+	baseUrl:'/xijing',
 	
 	paths:{
 		render:"script/home/render",
